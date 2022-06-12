@@ -2,4 +2,39 @@ html, body {
   height: 100%;
   width: 100%;
 }
+header{
+  width: 100%;
+  height: auto;
+}
 
+#container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+#leftside{
+  height: inherit;
+  width: 300;
+}
+#rightside{
+  padding-left: 5%;
+  padding-right: 5%;
+  height: inherit;
+  width: auto;
+}
+
+#button {
+  display: block;
+  width: 115px;
+  height: 25px;
+  background: #4E9CAF;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  line-height: 25px;
+}
+#navlinks{
+  display: flex;
+}
